@@ -46,7 +46,7 @@ document.querySelector('html').onclick = function() {
 */
 // 一个图片切换
 
-//首先我们要那到图片元素
+//获取图片元素
 var myImage = document.querySelector('img');
 //为图片添加点击事件
 myImage.onclick = function() {
